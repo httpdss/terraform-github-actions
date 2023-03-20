@@ -68,7 +68,7 @@ outputs:
 
 runs:
   using: docker
-  image: ../image/Dockerfile
+  image: docker://danielflook/terraform-github-actions:latest
   entrypoint: /entrypoints/plan.sh
 
 branding:
